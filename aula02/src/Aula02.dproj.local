@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/07/19 15:00:46.000.527,=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/19 15:15:57.000.591,C:\Projetos\Delphi11\POO\aula02\src\Principal.pas=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/19 15:16:05.000.578,C:\Projetos\Delphi11\POO\aula02\src\Aula02.dproj=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/07/19 17:28:43.345,=C:\Projetos\Delphi11\POO\aula02\src\Unit1.pas</Transaction>
+    <Transaction>2023/07/19 17:30:19.274,C:\Projetos\Delphi11\POO\aula02\src\POOClasses.Pessoa.pas=C:\Projetos\Delphi11\POO\aula02\src\Unit1.pas</Transaction>
+    <Transaction>2023/07/19 17:37:27.422,=C:\Projetos\Delphi11\POO\aula02\src\Unit1.pas</Transaction>
+    <Transaction>2023/07/19 17:37:54.981,C:\Projetos\Delphi11\POO\aula02\src\POO.Classes.Pessoa.pas=C:\Projetos\Delphi11\POO\aula02\src\Unit1.pas</Transaction>
+    <Transaction>2023/07/19 17:39:53.175,=C:\Projetos\Delphi11\POO\aula02\src\Unit1.pas</Transaction>
+    <Transaction>2023/07/19 17:41:28.289,C:\Projetos\Delphi11\POO\aula02\src\POO.Classes.Cliente.pas=C:\Projetos\Delphi11\POO\aula02\src\Unit1.pas</Transaction>
+    <Transaction>2023/07/19 17:42:09.730,=C:\Projetos\Delphi11\POO\aula02\src\Unit1.pas</Transaction>
+    <Transaction>2023/07/19 17:42:38.602,C:\Projetos\Delphi11\POO\aula02\src\POO.Classes.Usuario.pas=C:\Projetos\Delphi11\POO\aula02\src\Unit1.pas</Transaction>
+    <Transaction>2023/07/19 17:43:30.738,=C:\Projetos\Delphi11\POO\aula02\src\Unit1.pas</Transaction>
+    <Transaction>2023/07/19 17:44:30.994,C:\Projetos\Delphi11\POO\aula02\src\POO.Classes.Administrador.pas=C:\Projetos\Delphi11\POO\aula02\src\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

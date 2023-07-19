@@ -1,0 +1,28 @@
+unit POO.Classes.Administrador;
+
+interface
+
+uses POO.Classes.Usuario
+
+  type TAdministrador = class(TUsuario)
+    //Metodos que são representados por procedures
+    procedure Excluir;
+    procedure Inserir;
+    //Após a declaração dos métodos/procedures teclar o conjunto Shift+Ctrl+C
+  end;
+
+implementation
+
+{ TAdministrador }
+
+procedure TAdministrador.Excluir;
+begin
+
+end;
+
+procedure TAdministrador.Inserir;
+begin
+
+end;
+
+end.

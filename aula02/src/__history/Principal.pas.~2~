@@ -1,0 +1,40 @@
+unit Principal;
+
+interface
+
+  type TCliente = class(TPessoa)
+    CNPJ : string;
+    RazaoSocial : string;
+  end;
+
+  type TUsuario = class(TPessoa)
+    NomeAcesso : string;
+    Senha: string;
+  end;
+
+  type TAdministrador = class(TUsuario)
+    //Metodos que são representados por procedures
+    procedure Excluir;
+    procedure Inserir;
+    //Após a declaração dos métodos/procedures teclar o conjunto Shift+Ctrl+C
+  end;
+
+implementation
+
+//initialization
+
+//finalization
+
+{ TAdministrador }
+
+procedure TAdministrador.Excluir;
+begin
+
+end;
+
+procedure TAdministrador.Inserir;
+begin
+
+end;
+
+end.
