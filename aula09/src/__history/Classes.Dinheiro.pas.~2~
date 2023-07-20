@@ -1,0 +1,31 @@
+unit Classes.Dinheiro;
+
+interface
+
+uses Classes.Pagamento;
+
+type TDinheiro = class(TPagamento)
+     private
+       { private declarations }
+     protected
+       { protected declarations }
+     public
+       { public declarations }
+
+     published
+       { published declarations }
+       function Pagar : string; override;
+     end;
+
+implementation
+
+
+
+{ TDinheiro }
+
+function TDinheiro.Pagar: string;
+begin
+  Result := 'Dentro de dinheiro.';
+end;
+
+end.

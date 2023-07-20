@@ -1,0 +1,44 @@
+unit Classes.Pagamento;
+
+interface
+
+type TPagamento = class
+     private
+    FValor: double;
+    FMensagem: string;
+    procedure SetMensage(const Value: string);
+    procedure SetValor(const Value: double);
+       { private declarations }
+     protected
+       { protected declarations }
+     public
+       { public declarations }
+
+     published
+       { published declarations }
+       property Valor : double read FValor write SetValor;
+       property Mensagem : string read FMensagem write SetMensage;
+
+       function Pagar : string;
+     end;
+
+implementation
+
+{ TPagamento }
+
+function TPagamento.Pagar: string;
+begin
+  Result := 'Dentro de Pagamento';
+end;
+
+procedure TPagamento.SetMensage(const Value: string);
+begin
+  FMensagem := Value;
+end;
+
+procedure TPagamento.SetValor(const Value: double);
+begin
+  FValor := Value;
+end;
+
+end.

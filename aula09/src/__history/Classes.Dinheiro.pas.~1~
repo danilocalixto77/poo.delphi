@@ -1,0 +1,23 @@
+unit Classes.Dinheiro;
+
+interface
+
+uses Classes.Pagamento;
+
+type TDinheiro = class(TPagamento)
+     private
+       { private declarations }
+     protected
+       { protected declarations }
+     public
+       { public declarations }
+
+     published
+       { published declarations }
+     end;
+
+implementation
+
+
+
+end.

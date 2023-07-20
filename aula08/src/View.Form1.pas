@@ -39,7 +39,7 @@ begin
   lTrabalhadorCLT.Salario := lTrabalhadorCLT.CalcularSalario(SALARIOMINIO, 1);
   Edit1.text := lTrabalhadorCLT.Salario.ToString;
 
-  lTrabalhadorDiario.Create;
+  lTrabalhadorDiario := TTrabalhador.Create;
   lTrabalhadorDiario.Salario := lTrabalhadorDiario.CalcularSalario(10, VALORDIA);
   Edit2.Text := lTrabalhadorDiario.Salario.ToString;
 end;

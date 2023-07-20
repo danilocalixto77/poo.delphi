@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/07/20 14:22:33.673,=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/20 14:23:06.955,C:\Projetos\Delphi11\POO\aula09\src\View.Principal.dfm=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/07/20 14:23:06.955,C:\Projetos\Delphi11\POO\aula09\src\View.Principal.pas=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/20 14:23:26.712,C:\Projetos\Delphi11\POO\aula09\ExemploPagamentos.dproj=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/07/20 14:23:37.202,=C:\Projetos\Delphi11\POO\aula09\Unit1.pas</Transaction>
+    <Transaction>2023/07/20 14:33:01.946,C:\Projetos\Delphi11\POO\aula09\src\Classes.Pagamento.pas=C:\Projetos\Delphi11\POO\aula09\Unit1.pas</Transaction>
+    <Transaction>2023/07/20 14:33:44.232,=C:\Projetos\Delphi11\POO\aula09\Unit1.pas</Transaction>
+    <Transaction>2023/07/20 14:34:58.561,C:\Projetos\Delphi11\POO\aula09\src\Classes.Dinheiro.pas=C:\Projetos\Delphi11\POO\aula09\Unit1.pas</Transaction>
+    <Transaction>2023/07/20 14:53:12.757,=C:\Projetos\Delphi11\POO\aula09\Unit1.pas</Transaction>
+    <Transaction>2023/07/20 14:53:29.233,C:\Projetos\Delphi11\POO\aula09\src\Classes.Pix.pas=C:\Projetos\Delphi11\POO\aula09\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
