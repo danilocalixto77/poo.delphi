@@ -1,0 +1,40 @@
+unit Classes.Exemplo;
+
+interface
+
+type
+  TExemplo = class
+  private
+    { private declarations - visível para a classe e classes amigas. Classes amigas são as que estão dentro da mesma unit }
+    FPrivado : string;
+  protected
+    { protected declarations - visivel para a classe, classes amigas e também os herdeiros da classe}
+    FProtegido : string;
+  public
+    { public declarations - visível para qualquer um que referencie a classe }
+    FPublico : string;
+    FPublicada : string;
+    procedure SetPublicado(const Value: string);
+    function GetPrivado : string; //function/metodo referenciando ao atributo FPrivado para permitir guardar valores fora da unit
+
+  published
+    { published declarations - visível e publicada no object inspector }
+    property Publicada : string read FPublicada write SetPublicado;
+
+  end;
+
+implementation
+
+{ TExemplo }
+
+function TExemplo.GetPrivado: string;
+begin
+  Result : FPrivado;
+end;
+
+procedure TExemplo.SetPublicado(const Value: string);
+begin
+  FPublicada := Value;
+end;
+
+end.

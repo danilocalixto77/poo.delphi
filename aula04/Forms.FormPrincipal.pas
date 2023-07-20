@@ -28,9 +28,12 @@ uses Classes.Exemplo;
 procedure TFormPrincipal.Button1Click(Sender: TObject);
 var
   lExemplo : TExemplo;
+  lSubExemplo : TSubExemplo;
 begin
   lExemplo := TExemplo.Create;
   lExemplo.SetPublicado('OK');
+  lExemplo.GetPrivado;
+  lSubExemplo.GetProtegidoExemplo;
 
 end;
 

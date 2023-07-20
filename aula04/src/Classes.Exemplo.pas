@@ -15,7 +15,7 @@ type
     FPublico : string;
     FPublicada : string;
     procedure SetPublicado(const Value: string);
-    function GetPrivado : string; //function/metodo referenciando ao atributo FPrivado para permitir guardar valores fora da unit
+    function GetPrivado : string; //function/metodo referenciando ao atributo FPrivado para permitir guardar valores fora da unit, pois o encapsulamento não permite que seja informado direto na variável
 
   published
     { published declarations - visível e publicada no object inspector }
@@ -23,18 +23,32 @@ type
 
   end;
 
+  TSubExemplo = class(TExemplo)
+
+  public
+    function GetProtegidoExemplo : string;
+  end;
+
+
 implementation
 
 { TExemplo }
 
 function TExemplo.GetPrivado: string;
 begin
-  Result : FPrivado;
+  Result := FPrivado;
 end;
 
 procedure TExemplo.SetPublicado(const Value: string);
 begin
   FPublicada := Value;
+end;
+
+{ TSubExemplo }
+
+function TSubExemplo.GetProtegidoExemplo: string;
+begin
+   Result := FProtegido;
 end;
 
 end.

@@ -1,0 +1,17 @@
+unit Classe.Pessoa;
+
+interface
+
+type
+  TPessoa = class
+    private
+      var FNome : string;
+      var FTelefone : string;
+    public
+
+
+  end;
+
+implementation
+
+end.

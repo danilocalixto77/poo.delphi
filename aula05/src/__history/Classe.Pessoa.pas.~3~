@@ -1,0 +1,16 @@
+unit Classe.Pessoa;
+
+interface
+
+type TPessoa = class
+    private
+      var FNome : string;
+      var FTelefone : string;
+    public
+      //atributos/campos não é comum serem declarados como público
+      var FRG : string;
+  end;
+
+implementation
+
+end.
