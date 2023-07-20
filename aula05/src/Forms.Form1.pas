@@ -9,7 +9,10 @@ uses
 type
   TForm1 = class(TForm)
     Button1: TButton;
+    Edit1: TEdit;
+    Button2: TButton;
     procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -30,7 +33,16 @@ var
   lPessoa : TPessoa;
 begin
   lPessoa := TPessoa.Create;
-  lPessoa.FCFRG := EmptyStr;
+  lPessoa.Nome := Edit1.Text;
+  ShowMessage(lPessoa.Nome);
+
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+var lPessoa : TPessoa;
+begin
+  lPessoa := TPessoa.Create;
+  ShowMessage(lPessoa.Nome);
 
 end;
 
