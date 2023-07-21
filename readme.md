@@ -1,8 +1,6 @@
-Programação Orientada a Objetos com Delphi
-"#poo.delphi" 
-
-Fonte: Youtube
-Canal: Landerson Gomes
+## Programação Orientada a Objetos com Delphi
+- Fonte: Youtube
+- Canal: Landerson Gomes
 
 - Programação Orientada a Objetos com Delphi - Aula 01
 - Programação Orientada a Objetos com Delphi - Aula 02
