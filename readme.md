@@ -18,8 +18,7 @@
 ## Programação Orientada a Objetos com Delphi - Aula 06
 
 ## Programação Orientada a Objetos com Delphi - Aula 07
-  - Métodos responsáveis pelos comportamentos das classes, Get e Set. Método
-    constructor e destructor.
+- Métodos responsáveis pelos comportamentos das classes, Get e Set. Método constructor e destructor.
 
 ## Programação Orientada a Objetos com Delphi - Aula 08
   - Polimorfismo: como utilizar dentro da mesma classe, usando a diretiva
@@ -74,3 +73,6 @@
 - Desta forma esta classe TInterfacedObject se encarrega de implemntar os métodos que estavam faltando que pertencem a IInterface e faz ao mesmo a declaração de TObject como classe mãe.
 
 ## Programação Orientada a Objetos com Delphi - Aula 13
+### Método de Classe - Class Method (fuction/procedure)
+- Para definir um método de classe basta inserir antes da procedure ou function a palavra reservada 'class'.
+- Umas das caracteristicas do método de classe é permitir o uso deste método, sem a necessidade de instanciar a classe para fazer uso do método.

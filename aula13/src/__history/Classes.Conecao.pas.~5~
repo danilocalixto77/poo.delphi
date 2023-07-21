@@ -1,0 +1,36 @@
+unit Classes.Conecao;
+
+interface
+
+type
+  TConexao = class
+  private
+    FEnderecoBD: string;
+    procedure SetEnderecoBD(const Value: string);
+    { private declarations }
+  protected
+    { protected declarations }
+  public
+    { public declarations }
+    class function VerificaBD : boolean;
+  published
+    { published declarations }
+    property EnderecoBD: string read FEnderecoBD write SetEnderecoBD;
+  end;
+
+implementation
+
+{ TConexao }
+uses SysUtils;
+
+procedure TConexao.SetEnderecoBD(const Value: string);
+begin
+  FEnderecoBD := Value;
+end;
+
+class function TConexao.VerificaBD: boolean;
+begin
+  Result := FileExists('C:\Projetos\Delphi11\POO\readmea.md')
+end;
+
+end.
