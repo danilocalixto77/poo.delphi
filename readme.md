@@ -53,19 +53,17 @@
 - Posicione o cursor logo abaixo da declaração da interface;
 - Tecle : Ctrl + Shift + G
 
-   - A classe por padrão se não for herdar de uma classe mãe, não necessita ser declarada. Pois o Delphi implicitamente identifica que está herdando TObject.
-   - E no Delphi não é permitido herdar mais de uma classe, todos os demais são implementações.
-   - Desta forma para declarar a interface requer que siga alguns padrões. Informar a classe que está herdando e em seguida a interface.
-   - type TClasse = class(TObject, IInterface)
-   - Contudo declarando da forma acima, ainda há métodos que não pertencem a classe mãe
-     que caso a declaração seja feita (TObject, IInterface) irá solicitar sua implementação.
-   - Os métodos são os seguinte: 
-     - QueryInterface
-     - _AddRef
-     - _Release
-   - Para solucionar este problema o ideal é declar nos parâmetros da classe da
-     seguinte forma:
-   - type TClasse = class(TInterfacedObject)
-   - Desta forma esta classe TInterfacedObject se encarrega de implemntar os métodos que estavam faltando que pertencem a IInterface e faz ao mesmo a declaração de TObject como classe mãe.
+- A classe por padrão se não for herdar de uma classe mãe, não necessita ser declarada. Pois o Delphi implicitamente identifica que está herdando TObject.
+- E no Delphi não é permitido herdar mais de uma classe, todos os demais são implementações.
+- Desta forma para declarar a interface requer que siga alguns padrões. Informar a classe que está herdando e em seguida a interface.
+- type TClasse = class(TObject, IInterface)
+- Contudo declarando da forma acima, ainda há métodos que não pertencem a classe mãe que caso a declaração seja feita (TObject, IInterface) irá solicitar sua implementação.
+- Os métodos são os seguinte: 
+ - QueryInterface
+ - _AddRef
+ - _Release
+- Para solucionar este problema o ideal é declar nos parâmetros da classe da seguinte forma:
+ - type TClasse = class(TInterfacedObject)
+- Desta forma esta classe TInterfacedObject se encarrega de implemntar os métodos que estavam faltando que pertencem a IInterface e faz ao mesmo a declaração de TObject como classe mãe.
 
 ## Programação Orientada a Objetos com Delphi - Aula 13
