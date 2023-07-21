@@ -49,11 +49,11 @@
 - Criação da interface. Por converção do Delphi, interfaces começam com a letra I.
 - Sintaxe é a seguinte:
 ---
-type
-  INomeInterface = Interface
-  [GUID]
-  metodos(function)
-  End;
+	type
+	  INomeInterface = Interface
+	  [GUID]
+	  metodos(function)
+	  End;
 ---
 - Toda interface necessita gerar um GUID - como identificador único da interface.
 - Para gerar o GUID:
