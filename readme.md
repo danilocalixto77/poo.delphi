@@ -54,7 +54,7 @@
           [GUID]
         metodos(function)
         End;
----------------------------------------------------------------------------------------
+---
 - Toda interface necessita gerar um GUID - como identificador único da interface.
 - Para gerar o GUID:
 - Posicione o cursor logo abaixo da declaração da interface;
