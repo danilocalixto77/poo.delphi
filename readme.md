@@ -1,11 +1,11 @@
-## Programação Orientada a Objetos com Delphi
-- Fonte: Youtube
-- Canal: Landerson Gomes
+# Programação Orientada a Objetos com Delphi
+### Fonte: Youtube
+### Canal: Landerson Gomes
 
-- Programação Orientada a Objetos com Delphi - Aula 01
-- Programação Orientada a Objetos com Delphi - Aula 02
-- Programação Orientada a Objetos com Delphi - Aula 03
-# Programação Orientada a Objetos com Delphi - Aula 04
+### Programação Orientada a Objetos com Delphi - Aula 01
+### Programação Orientada a Objetos com Delphi - Aula 02
+### Programação Orientada a Objetos com Delphi - Aula 03
+### Programação Orientada a Objetos com Delphi - Aula 04
   - Emcapsulamento: Através dos escopos de visibilidade de uma classe:
   - Private: visível a toda a classe e classes amigas. Classes amigas são todas declaradas dentro das mesma unit.
   - Protected: visível para a classes, classes amigas e para os herdeiros de subclasses.
