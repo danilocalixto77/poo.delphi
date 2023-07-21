@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/07/21 07:09:27.820,=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/21 07:10:19.523,C:\Projetos\Delphi11\POO\aula12\src\View.Principal.dfm=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/07/21 07:10:19.523,C:\Projetos\Delphi11\POO\aula12\src\View.Principal.pas=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/21 07:10:32.508,C:\Projetos\Delphi11\POO\aula12\aula12.dproj=C:\Users\Danilo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/07/21 07:15:20.313,=C:\Projetos\Delphi11\POO\aula12\Unit1.pas</Transaction>
+    <Transaction>2023/07/21 07:15:32.598,C:\Projetos\Delphi11\POO\aula12\src\Classes.Midia.pas=C:\Projetos\Delphi11\POO\aula12\Unit1.pas</Transaction>
+    <Transaction>2023/07/21 07:17:56.862,=C:\Projetos\Delphi11\POO\aula12\Unit1.pas</Transaction>
+    <Transaction>2023/07/21 07:18:11.717,C:\Projetos\Delphi11\POO\aula12\src\Classes.Audio.pas=C:\Projetos\Delphi11\POO\aula12\Unit1.pas</Transaction>
+    <Transaction>2023/07/21 07:22:13.658,=C:\Projetos\Delphi11\POO\aula12\Unit1.pas</Transaction>
+    <Transaction>2023/07/21 08:30:07.298,C:\Projetos\Delphi11\POO\aula12\src\Modelo.Player.pas=C:\Projetos\Delphi11\POO\aula12\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
