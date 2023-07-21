@@ -45,15 +45,16 @@
   - Diretiva inherited: quando a diretiva inherited é declarada ela executa e busca os valores da classe ancestral e concatena com o valores da classe descedente. E vice-versa conforme ordem de declaração da diretiva.
 
 ## Programação Orientada a Objetos com Delphi - Aula 12
-  ### - Interfaces   
-      - Criação da interface:
-      - Converção Delphi, interfaces começam com a letra I.
-      - a sintaxe é a seguinte:
+  ### Interfaces   
+      - Criação da interface. Por converção do Delphi, interfaces começam com a letra I.
+      - A sintaxe é a seguinte:
+
         type
           INomeInterface = Interface
           [GUID]
         metodos(function)
         End;
+
    - Toda interface necessita gerar um GUID - como identificador único da interface.
    - Para gerar o GUID:
      - Posicione o cursor logo abaixo da declaração da interface;
