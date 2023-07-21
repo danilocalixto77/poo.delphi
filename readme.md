@@ -47,8 +47,8 @@
 ## Programação Orientada a Objetos com Delphi - Aula 12
   ### Interfaces   
       - Criação da interface. Por converção do Delphi, interfaces começam com a letra I.
-      - A sintaxe é a seguinte:
 
+      - Sintaxe é a seguinte:
         type
           INomeInterface = Interface
           [GUID]
