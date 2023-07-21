@@ -8,40 +8,43 @@
 ## Programação Orientada a Objetos com Delphi - Aula 03
 
 ## Programação Orientada a Objetos com Delphi - Aula 04
-  - Emcapsulamento: Através dos escopos de visibilidade de uma classe:
-  - Private: visível a toda a classe e classes amigas. Classes amigas são todas declaradas dentro das mesma unit.
-  - Protected: visível para a classes, classes amigas e para os herdeiros de subclasses.
-  - Public: acessível a todo que fizerem referência a classe.
-  - Published: é visível e publicada no object inspector.
+### Emcapsulamento: Através dos escopos de visibilidade de uma classe:
+- Private: visível a toda a classe e classes amigas. Classes amigas são todas declaradas dentro das mesma unit.
+- Protected: visível para a classes, classes amigas e para os herdeiros de subclasses.
+- Public: acessível a todo que fizerem referência a classe.
+- Published: é visível e publicada no object inspector.
+
 ## Programação Orientada a Objetos com Delphi - Aula 05
 
 ## Programação Orientada a Objetos com Delphi - Aula 06
 
 ## Programação Orientada a Objetos com Delphi - Aula 07
-- Métodos responsáveis pelos comportamentos das classes, Get e Set. Método constructor e destructor.
+### Métodos
+- São responsáveis pelos comportamentos das classes. 
+- Podendo ser: Get, Set, constructor, destructor e etc...
 
 ## Programação Orientada a Objetos com Delphi - Aula 08
-  - Polimorfismo: como utilizar dentro da mesma classe, usando a diretiva
-    overload, uma sobrecarga dos métodos.
+### Polimorfismo
+- Como utilizar dentro da mesma classe, usando a diretiva overload, uma sobrecarga dos métodos.
 
 ## Programação Orientada a Objetos com Delphi - Aula 09
-  - Polimorfismo: utilizando a sobrescrita de método usando as diretivas override,
-    virtual e abstract. Na qual:
-    - Virtual: declaração feita na classe mãe.
-    - Override: faz a re-escrita do método na classe filha podendo ter o seu 
-      comportamento modificado pelo que foi definido na classe mãe.
-    - Abstract: esse método tem a sua definição na classe ancestral, e pode ser implementado somente nas classes descendentes.
+### Polimorfismo
+- Utilizando a sobrescrita de método usando as diretivas override, virtual e abstract. Na qual:
+- Virtual: declaração feita na classe mãe.
+- Override: faz a re-escrita do método na classe filha podendo ter o seu comportamento modificado pelo que foi definido na classe mãe.
+- Abstract: esse método tem a sua definição na classe ancestral, e pode ser implementado somente nas classes descendentes.
 
 ## Programação Orientada a Objetos com Delphi - Aula 10
-  - Diretiretiva restritiva strict, está ligada diretamente aos escopos de visibilidade
-    da classe.
-    - Strict Private : é estritamente privada, acessível somente a propria classe.
-    - Strict Protected : é estritamente protegida, acessível a propria classe e as classes herdeiras.
-    - Nessas diretivas, ambas negam acesso a classes amigas(dentro da mesma unit).
+### Strict
+- Diretiretiva restritiva strict, está ligada diretamente aos escopos de visibilidade da classe.
+- Strict Private : é estritamente privada, acessível somente a propria classe.
+- Strict Protected : é estritamente protegida, acessível a propria classe e as classes herdeiras.
+- Nessas diretivas, ambas negam acesso a classes amigas(dentro da mesma unit).
 
 ## Programação Orientada a Objetos com Delphi - Aula 11
-  - Herança: O Delphi não permite múltipas heranças, é sempre de uma para uma classe.
-  - Diretiva inherited: quando a diretiva inherited é declarada ela executa e busca os valores da classe ancestral e concatena com o valores da classe descedente. E vice-versa conforme ordem de declaração da diretiva.
+### Herança
+- O Delphi não permite múltipas heranças, é sempre de uma para uma classe.
+- Diretiva inherited: quando a diretiva inherited é declarada ela executa e busca os valores da classe ancestral e concatena com o valores da classe descedente. E vice-versa conforme ordem de declaração da diretiva.
 
 ## Programação Orientada a Objetos com Delphi - Aula 12
 ### Interfaces   
