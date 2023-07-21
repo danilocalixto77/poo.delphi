@@ -45,6 +45,20 @@
   - Diretiva inherited: quando a diretiva inherited é declarada ela executa e busca os valores da classe ancestral e concatena com o valores da classe descedente. E vice-versa conforme ordem de declaração da diretiva.
 
 ## Programação Orientada a Objetos com Delphi - Aula 12
+  ### - Interfaces   
+      - Criação da interface:
+      - Converção Delphi, interfaces começam com a letra I.
+      - a sintaxe é a seguinte:
+        type
+          INomeInterface = Interface
+          [GUID]
+        metodos(function)
+        End;
+   - Toda interface necessita gerar um GUID - como identificador único da interface.
+   - Para gerar o GUID:
+     - Posicione o cursor logo abaixo da declaração da interface;
+     - Tecle : Ctrl + Shift + G
+
    - A classe por padrão se não for herdar de uma classe mãe, não necessita ser declarada. Pois o Delphi implicitamente identifica que está herdando TObject.
    - E no Delphi não é permitido herdar mais de uma classe, todos os demais são implementações.
    - Desta forma para declarar a interface requer que siga alguns padrões. Informar a classe que está herdando e em seguida a interface.
