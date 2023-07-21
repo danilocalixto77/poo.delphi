@@ -48,6 +48,13 @@
 ### Interfaces   
 - Criação da interface. Por converção do Delphi, interfaces começam com a letra I.
 - Sintaxe é a seguinte:
+---------------------------------------------------------------------------------------
+        type
+          INomeInterface = Interface
+          [GUID]
+        metodos(function)
+        End;
+---------------------------------------------------------------------------------------
 - Toda interface necessita gerar um GUID - como identificador único da interface.
 - Para gerar o GUID:
 - Posicione o cursor logo abaixo da declaração da interface;
@@ -63,7 +70,7 @@
   - _AddRef
   - _Release
 - Para solucionar este problema o ideal é declar nos parâmetros da classe da seguinte forma:
- - type TClasse = class(TInterfacedObject)
+  - type TClasse = class(TInterfacedObject)
 - Desta forma esta classe TInterfacedObject se encarrega de implemntar os métodos que estavam faltando que pertencem a IInterface e faz ao mesmo a declaração de TObject como classe mãe.
 
 ## Programação Orientada a Objetos com Delphi - Aula 13
