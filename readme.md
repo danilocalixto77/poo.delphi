@@ -34,5 +34,7 @@
     - Strict Protected : é estritamente protegida, acessível a propria classe e as classes herdeiras.
     - Nessas diretivas, ambas negam acesso a classes amigas(dentro da mesma unit).
 ## Programação Orientada a Objetos com Delphi - Aula 11
+  - Herança: O Delphi não permite múltipas heranças, é sempre de uma para uma classe.
+  - Diretiva inherited: quando a diretiva inherited é declarada ela executa e busca os valores da classe ancestral e concatena com o valores da classe descedente. E vice-versa conforme ordem de declaração da diretiva.
 ## Programação Orientada a Objetos com Delphi - Aula 12
 ## Programação Orientada a Objetos com Delphi - Aula 13

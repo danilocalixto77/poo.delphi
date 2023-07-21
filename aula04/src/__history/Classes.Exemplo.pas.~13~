@@ -75,7 +75,6 @@ end;
 
 function TSubExemplo.Heranca: string;
 begin
-  inherited;
   FPublico := FPublico + 'implementado na classe descendente.';
   Result := FPublico;
 end;
@@ -89,7 +88,7 @@ end;
 
 function TClasseAmiga.AmigaVe: string;
 begin
-  //Self.Exe;
+  Self.Exe;
 end;
 
 end.

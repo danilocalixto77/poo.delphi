@@ -30,15 +30,10 @@ var
   lExemplo : TExemplo;
   lSubExemplo : TSubExemplo;
 begin
- {
   lExemplo := TExemplo.Create;
   lExemplo.SetPublicado('OK');
   lExemplo.GetPrivado;
   lSubExemplo.GetProtegidoExemplo;
-  }
-  lSubExemplo := TSubExemplo.Create;
-  ShowMessage(lSubExemplo.Heranca);
-
 
 end;
 
