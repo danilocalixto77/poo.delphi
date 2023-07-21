@@ -28,8 +28,11 @@
       classe mãe, não permitindo configurações e parametrizações, tais implementações
       são feitas na classe filha.
 ## Programação Orientada a Objetos com Delphi - Aula 10
-  - Diretiretiva restritiva istrict, está ligada diretamente aos escopos de visibilidade
+  - Diretiretiva restritiva strict, está ligada diretamente aos escopos de visibilidade
     da classe.
+    - Strict Private : é estritamente privada, acessível somente a propria classe.
+    - Strict Protected : é estritamente protegida, acessível a propria classe e as classes herdeiras.
+    - Nessas diretivas, ambas negam acesso a classes amigas(dentro da mesma unit).
 ## Programação Orientada a Objetos com Delphi - Aula 11
 ## Programação Orientada a Objetos com Delphi - Aula 12
 ## Programação Orientada a Objetos com Delphi - Aula 13

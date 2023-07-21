@@ -6,23 +6,28 @@ type
   TExemplo = class
 
   strict private
-    { stric private declarations - È estritamente privado, sem acesso das classes amigas.}
+    { stric private declarations - √© estritamente privado, acess√≠vel somente a propria classe.}
     FPrivado : string;
+
+    strict protected
+    { stric protected declarations - √© estritamente protegida, acess√≠vel a propria classe e as herdeiras}
+      FProtegido : string;
+
   private
-    { private declarations - visÌvel para a classe e classes amigas. Classes amigas s„o as que est„o dentro da mesma unit }
+    { private declarations - vis√≠vel para a classe e classes amigas. Classes amigas s√£o as que est√£o dentro da mesma unit }
 
   protected
-    { protected declarations - visivel para a classe, classes amigas e tambÈm os herdeiros da classe}
-    FProtegido : string;
+    { protected declarations - visivel para a classe, classes amigas e tamb√©m os herdeiros da classe}
+
   public
-    { public declarations - visÌvel para qualquer um que referencie a classe }
+    { public declarations - vis√≠vel para qualquer um que referencie a classe }
     FPublico : string;
     FPublicada : string;
     procedure SetPublicado(const Value: string);
-    function GetPrivado : string; //function/metodo referenciando ao atributo FPrivado para permitir guardar valores fora da unit, pois o encapsulamento n„o permite que seja informado direto na vari·vel
+    function GetPrivado : string; //function/metodo referenciando ao atributo FPrivado para permitir guardar valores fora da unit, pois o encapsulamento n√£o permite que seja informado direto na vari√°vel
 
   published
-    { published declarations - visÌvel e publicada no object inspector }
+    { published declarations - vis√≠vel e publicada no object inspector }
     property Publicada : string read FPublicada write SetPublicado;
 
   end;

@@ -70,7 +70,7 @@ end;
 
 function TClasseAmiga.AmigaVe: string;
 begin
-  Self.Exe;
+  Self.Exemplo.
 end;
 
 end.

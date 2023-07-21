@@ -35,7 +35,7 @@ type
   end;
 
   TClasseAmiga = class
-    Exe : TExemplo;
+    Exemplo : TExemplo;
   public
     function AmigaVe : string;
   end;
@@ -64,13 +64,6 @@ end;
 function TSubExemplo.VerPrivadoExemplo: string;
 begin
   //Result := FPrivado;
-end;
-
-{ TClasseAmiga }
-
-function TClasseAmiga.AmigaVe: string;
-begin
-  Self.Exe;
 end;
 
 end.

@@ -4,13 +4,9 @@ interface
 
 type
   TExemplo = class
-
-  strict private
-    { stric private declarations - é estritamente privado, sem acesso das classes amigas.}
-    FPrivado : string;
   private
     { private declarations - visível para a classe e classes amigas. Classes amigas são as que estão dentro da mesma unit }
-
+    FPrivado : string;
   protected
     { protected declarations - visivel para a classe, classes amigas e também os herdeiros da classe}
     FProtegido : string;
@@ -31,14 +27,8 @@ type
 
   public
     function GetProtegidoExemplo : string;
-    function VerPrivadoExemplo : string;
   end;
 
-  TClasseAmiga = class
-    Exe : TExemplo;
-  public
-    function AmigaVe : string;
-  end;
 
 implementation
 
@@ -59,18 +49,6 @@ end;
 function TSubExemplo.GetProtegidoExemplo: string;
 begin
    Result := FProtegido;
-end;
-
-function TSubExemplo.VerPrivadoExemplo: string;
-begin
-  //Result := FPrivado;
-end;
-
-{ TClasseAmiga }
-
-function TClasseAmiga.AmigaVe: string;
-begin
-  Self.Exe;
 end;
 
 end.
