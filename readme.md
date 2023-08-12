@@ -15,8 +15,10 @@
 - Published: é visível e publicada no object inspector.
 
 ## Programação Orientada a Objetos com Delphi - Aula 05
+- Field (Campos) das classes
 
 ## Programação Orientada a Objetos com Delphi - Aula 06
+- Property
 
 ## Programação Orientada a Objetos com Delphi - Aula 07
 ### Métodos
