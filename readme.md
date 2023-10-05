@@ -1,5 +1,5 @@
 # Programação Orientada a Objetos com Delphi
-Fonte: Youtube | Canal: [Landerson Gomes](https://www.youtube.com/@LandersonGomes6){:target="_blank" rel="noopener"}
+Fonte: Youtube | Canal: [Landerson Gomes](https://www.youtube.com/@LandersonGomes6)
 
 ## Programação Orientada a Objetos com Delphi - Aula 01
   - Visão Geral e Pilares da POO.
@@ -8,7 +8,7 @@ Fonte: Youtube | Canal: [Landerson Gomes](https://www.youtube.com/@LandersonGome
     3. Polimorfismo: É a capacidade que os herdeiros tem de modificar os seus comportamentos.
     4. Encapsulamento: É a capacidade de proteger recursos de um determinado objeto.
   - Classe X Objeto
-    - Classe é o molde é a definição de como será. E o objeto é a materialização do que foi definido na classe ao ser instanciado.
+    >Classe é o molde é a definição de como será. E o objeto é a materialização do que foi definido na classe ao ser instanciado.
   - Estrutura base de uma Unit.
     ```
     Interface
