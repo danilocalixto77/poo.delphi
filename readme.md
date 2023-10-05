@@ -24,6 +24,8 @@ Fonte: Youtube | Canal: [Landerson Gomes](https://www.youtube.com/@LandersonGome
 
     ```
 ## Programação Orientada a Objetos com Delphi - Aula 02
+  - Criando projeto do tipo console.
+  - Desenvolvendo as classes.
 
 ## Programação Orientada a Objetos com Delphi - Aula 03
 
