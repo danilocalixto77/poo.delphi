@@ -1,5 +1,5 @@
 # Programação Orientada a Objetos com Delphi
-### Fonte: Youtube | Canal: Landerson Gomes
+Fonte: Youtube | Canal: [Landerson Gomes](https://www.youtube.com/@LandersonGomes6)
 
 ## Programação Orientada a Objetos com Delphi - Aula 01
   - Visão Geral e Pilares da POO.
