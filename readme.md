@@ -1,7 +1,32 @@
 # Programação Orientada a Objetos com Delphi
-##### Fonte: Youtube | Canal: Landerson Gomes
+### Fonte: Youtube | Canal: Landerson Gomes
 
 ## Programação Orientada a Objetos com Delphi - Aula 01
+  - Visão Geral e Pilares da POO.
+    > 1. Abtração
+        - Processo de analisar caracteristicas e ações do mundo real trazer para um objeto em determinado contexto o que é relevante e essencial para resulução do problema.
+      2. Herança
+        - É a capacidade de dar aos herdeiros os comportamentos e caracteristicas dos seus ancestrais.
+      3. Polimorfismo
+        - É a capacidade que os herdeiros tem de modificar os seus comportamentos.
+      4. Encapsulamento
+        - É a capacidade de proteger recursos de um determinado objeto.
+  - Classe X Objeto
+    - Classe é o molde é a definição de como será. E o objeto é a materialização do que foi definido na classe ao ser instanciado.
+  - Estrutura base de uma Unit.
+    ```
+    Interface
+      //Declaração de classes, métodos e atributos
+      //uses
+      //Variáveis e/ou constantes 
+    Implementation
+      //Onde as declarações são implementadas
+    Inicialization
+      //Código a ser executado quando a unit for carregada
+    Finalization
+      //Código a ser executado quando a unit for descarregada
+
+    ```
 
 ## Programação Orientada a Objetos com Delphi - Aula 02
 
